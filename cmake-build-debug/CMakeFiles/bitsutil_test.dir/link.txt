@@ -1,0 +1,3 @@
+D:\Programer\CLion2019.2.5\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\bitsutil_test.dir/objects.a
+D:\Programer\MinGw64\bin\ar.exe cr CMakeFiles\bitsutil_test.dir/objects.a @CMakeFiles\bitsutil_test.dir\objects1.rsp
+D:\Programer\MinGw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\bitsutil_test.dir/objects.a -Wl,--no-whole-archive  -o bitsutil_test.exe -Wl,--out-implib,libbitsutil_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bitsutil_test.dir\linklibs.rsp

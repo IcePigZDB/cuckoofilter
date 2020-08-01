@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="skiplist"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="conext-table3">
+				<Option output="D:/Projects/cuckoofilter-master/cmake-build-debug/conext-table3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/include"/>
+					<Add directory="D:/Projects/cuckoofilter-master/."/>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/dscl"/>
+					<Add directory="C:/OpenSSL-Win64/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 conext-table3"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="conext-table3/fast">
+				<Option output="D:/Projects/cuckoofilter-master/cmake-build-debug/conext-table3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/include"/>
+					<Add directory="D:/Projects/cuckoofilter-master/."/>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/dscl"/>
+					<Add directory="C:/OpenSSL-Win64/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 conext-table3/fast"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="conext-figure5">
+				<Option output="D:/Projects/cuckoofilter-master/cmake-build-debug/conext-figure5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/include"/>
+					<Add directory="D:/Projects/cuckoofilter-master/."/>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/dscl"/>
+					<Add directory="C:/OpenSSL-Win64/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 conext-figure5"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="conext-figure5/fast">
+				<Option output="D:/Projects/cuckoofilter-master/cmake-build-debug/conext-figure5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/include"/>
+					<Add directory="D:/Projects/cuckoofilter-master/."/>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/dscl"/>
+					<Add directory="C:/OpenSSL-Win64/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 conext-figure5/fast"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_test">
+				<Option output="D:/Projects/cuckoofilter-master/cmake-build-debug/my_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/include"/>
+					<Add directory="D:/Projects/cuckoofilter-master/."/>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/dscl"/>
+					<Add directory="C:/OpenSSL-Win64/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_test"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_test/fast">
+				<Option output="D:/Projects/cuckoofilter-master/cmake-build-debug/my_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/include"/>
+					<Add directory="D:/Projects/cuckoofilter-master/."/>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/dscl"/>
+					<Add directory="C:/OpenSSL-Win64/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_test/fast"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bitsutil_test">
+				<Option output="D:/Projects/cuckoofilter-master/cmake-build-debug/bitsutil_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/include"/>
+					<Add directory="D:/Projects/cuckoofilter-master/."/>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/dscl"/>
+					<Add directory="C:/OpenSSL-Win64/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 bitsutil_test"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bitsutil_test/fast">
+				<Option output="D:/Projects/cuckoofilter-master/cmake-build-debug/bitsutil_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/include"/>
+					<Add directory="D:/Projects/cuckoofilter-master/."/>
+					<Add directory="D:/Projects/cuckoofilter-master/cmake-build-debug/dscl"/>
+					<Add directory="C:/OpenSSL-Win64/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programer/MinGw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 bitsutil_test/fast"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="D:/Projects/cuckoofilter-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programer/MinGw64/bin/mingw32-make.exe -f &quot;D:/Projects/cuckoofilter-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Projects/cuckoofilter-master">
+			<Option target="conext-table3"/>
+			<Option target="conext-figure5"/>
+			<Option target="my_test"/>
+			<Option target="bitsutil_test"/>
+		</Unit>
+		<Unit filename="D:/Projects/cuckoofilter-master/benchmarks/conext-figure5.cc">
+			<Option target="conext-figure5"/>
+		</Unit>
+		<Unit filename="D:/Projects/cuckoofilter-master/benchmarks/conext-table3.cc">
+			<Option target="conext-table3"/>
+		</Unit>
+		<Unit filename="D:/Projects/cuckoofilter-master/example/my_test.cc">
+			<Option target="my_test"/>
+		</Unit>
+		<Unit filename="D:/Projects/cuckoofilter-master/src/bitsutil_test.cc">
+			<Option target="bitsutil_test"/>
+		</Unit>
+		<Unit filename="D:/Projects/cuckoofilter-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
